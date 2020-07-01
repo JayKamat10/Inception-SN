@@ -1,0 +1,40 @@
+1.5854278197767648 Test loss (%)
+99.69846606254578 Test accuracy (%)
+
+99.66425596065316 Kappa accuracy (%)
+99.6984649122807 Overall accuracy (%)
+99.5382564927127 Average accuracy (%)
+
+                          precision    recall  f1-score   support
+
+                   Scrub       1.00      1.00      1.00       533
+            Willow swamp       1.00      1.00      1.00       170
+    Cabbage palm hammock       1.00      0.99      1.00       179
+Cabbage palm/oak hammock       0.97      0.98      0.97       176
+              Slash pine       1.00      0.98      0.99       113
+   Oak/broadleaf hammock       0.99      1.00      1.00       160
+          Hardwood Swamp       1.00      1.00      1.00        74
+         Graminoid marsh       1.00      1.00      1.00       302
+          Spartina marsh       0.99      1.00      1.00       364
+           Cattail marsh       1.00      0.99      0.99       283
+              Salt marsh       1.00      1.00      1.00       293
+               Mud flats       1.00      1.00      1.00       352
+                   Water       1.00      1.00      1.00       649
+
+                accuracy                           1.00      3648
+               macro avg       1.00      1.00      1.00      3648
+            weighted avg       1.00      1.00      1.00      3648
+
+[[533   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 170   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0 178   1   0   0   0   0   0   0   0   0   0]
+ [  0   0   0 172   0   0   0   0   2   0   0   0   2]
+ [  1   0   0   1 111   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0 160   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0  74   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0 302   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0 364   0   0   0   0]
+ [  0   0   0   3   0   0   0   0   0 280   0   0   0]
+ [  0   0   0   0   0   1   0   0   0   0 292   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0 352   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0 649]]
