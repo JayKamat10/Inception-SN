@@ -1,2 +1,2 @@
 # Inception-SN
-A novel Convolutional Neural Network for Hyperspectral Image Classification
+An Inception based Convolutional Neural Network for Hyperspectral Image Classification
