@@ -1,0 +1,42 @@
+0.5246031228170097 Test loss (%)
+99.82410073280334 Test accuracy (%)
+
+99.8094296696802 Kappa accuracy (%)
+99.8240985048373 Overall accuracy (%)
+99.8482253421463 Average accuracy (%)
+
+                     precision    recall  f1-score   support
+
+              Water       1.00      0.99      1.00       189
+        Hippo grass       1.00      1.00      1.00        71
+Floodplain grasses1       0.99      1.00      0.99       176
+Floodplain grasses2       1.00      1.00      1.00       150
+             Reeds1       1.00      0.99      1.00       188
+           Riparian       1.00      0.99      0.99       188
+          Firescar2       1.00      1.00      1.00       181
+    Island interior       0.99      1.00      0.99       142
+  Accacia woodlands       1.00      1.00      1.00       220
+ Accacia shrublands       1.00      1.00      1.00       174
+  Acacia grasslands       1.00      1.00      1.00       214
+       Short mopane       1.00      1.00      1.00       127
+       Mixed mopane       1.00      1.00      1.00       188
+      Exposed soils       1.00      1.00      1.00        66
+
+           accuracy                           1.00      2274
+          macro avg       1.00      1.00      1.00      2274
+       weighted avg       1.00      1.00      1.00      2274
+
+[[188   0   1   0   0   0   0   0   0   0   0   0   0   0]
+ [  0  71   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0 176   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0 150   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   1   0 187   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0 186   0   2   0   0   0   0   0   0]
+ [  0   0   0   0   0   0 181   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0 142   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0 220   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0 174   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0 214   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0 127   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0 188   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0  66]]
